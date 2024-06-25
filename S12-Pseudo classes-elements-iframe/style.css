@@ -1,0 +1,65 @@
+p::first-letter {
+  color: red;
+  font-size: 2rem;
+}
+
+h2::first-line {
+  color: brown;
+  font-size: 1.1rem;
+}
+
+p {
+  background-color: antiquewhite;
+  color: blue;
+}
+p::selection {
+  background-color: teal;
+  color: tomato;
+}
+img {
+  width: 600px;
+}
+h1::before {
+  content: "🏭";
+}
+h1::after {
+  content: "🏭";
+}
+h1 {
+  text-align: center;
+  background-color: black;
+  color: azure;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 30px;
+}
+mark {
+  background-color: purple;
+  color: white;
+  font-size: 1.2rem;
+}
+a {
+  padding: 5px;
+  margin: 10px;
+}
+a:link {
+  background-color: red;
+  color: black;
+}
+a:visited {
+  background-color: green;
+  color: black;
+}
+a:hover {
+  background-color: brown;
+  color: yellow;
+}
+a:active {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+iframe {
+  width: 500px;
+  height: 400px;
+}
